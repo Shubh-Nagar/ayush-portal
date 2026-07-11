@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#0B2E4F"/>
+  <!-- Ashoka-chakra inspired mark over a leaf -->
+  <path d="M32 14c-7 8-11 14-11 21a11 11 0 0 0 22 0c0-7-4-13-11-21z" fill="#0F7B3E"/>
+  <path d="M32 20v22" stroke="#FBF9F4" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="32" cy="35" r="9" fill="none" stroke="#E8791B" stroke-width="2.5"/>
+  <g stroke="#E8791B" stroke-width="1.6">
+    <path d="M32 26v18M23 35h18M25.6 28.6l12.8 12.8M38.4 28.6L25.6 41.4"/>
+  </g>
+</svg>
