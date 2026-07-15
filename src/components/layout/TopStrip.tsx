@@ -1,8 +1,7 @@
 import { Link } from 'react-router-dom'
 
 /**
- * The thin government identity strip that sits above the main navigation on
- * official Indian government portals. Tricolour accent + parent-ministry line.
+ * The thin identity strip that sits above the main navigation.
  */
 export function TopStrip() {
   return (
@@ -15,7 +14,7 @@ export function TopStrip() {
       </div>
       <div className="container-page flex h-9 items-center justify-between text-xs">
         <p className="text-white/80">
-          An official evidence platform · Ministry of AYUSH, Government of India
+          An evidence-based AYUSH research platform
         </p>
         <div className="hidden items-center gap-4 sm:flex">
           <a href="#main" className="text-white/80 hover:text-white">

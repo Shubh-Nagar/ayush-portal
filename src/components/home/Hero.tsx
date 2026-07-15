@@ -25,7 +25,7 @@ export function Hero() {
         >
           <span className="inline-flex items-center gap-2 rounded-full border border-navy/10 bg-white px-4 py-1.5 text-xs font-medium text-navy shadow-sm">
             <ShieldCheck className="h-4 w-4 text-india" aria-hidden />
-            Government of India · Evidence-graded research
+            Evidence-graded AYUSH research
           </span>
 
           <h1 className="mx-auto mt-6 max-w-3xl text-4xl font-semibold leading-tight sm:text-5xl md:text-6xl">

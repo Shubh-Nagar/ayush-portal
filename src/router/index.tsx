@@ -39,6 +39,9 @@ const DashboardPage = lazy(() =>
 const CollaborationPage = lazy(() =>
   import('@/pages/CollaborationPage').then((m) => ({ default: m.CollaborationPage }))
 )
+const PartnershipRequestPage = lazy(() =>
+  import('@/pages/PartnershipRequestPage').then((m) => ({ default: m.PartnershipRequestPage }))
+)
 const AboutPage = lazy(() =>
   import('@/pages/AboutPage').then((m) => ({ default: m.AboutPage }))
 )
@@ -72,6 +75,7 @@ export const router = createBrowserRouter([
       { path: 'register', element: withSuspense(<RegisterPage />) },
       { path: 'dashboard', element: withSuspense(<DashboardPage />) },
       { path: 'collaborate', element: withSuspense(<CollaborationPage />) },
+      { path: 'collaborate/request', element: withSuspense(<PartnershipRequestPage />) },
       { path: 'about', element: withSuspense(<AboutPage />) },
       { path: 'contact', element: withSuspense(<ContactPage />) },
       { path: 'faq', element: withSuspense(<FaqPage />) },

@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Government of India inspired palette, refined for a research portal
+        // India-inspired palette, refined for a research portal
         paper: '#FBF9F4',      // warm off-white page background
         ink: '#182135',        // primary text (near-navy black)
         navy: {

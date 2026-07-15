@@ -1,7 +1,7 @@
 import { Handshake, Building2, Globe2, FileCheck2, ArrowRight } from 'lucide-react'
 import { Container } from '@/components/common/Container'
 import { SectionHeading } from '@/components/common/SectionHeading'
-import { Button } from '@/components/common/Button'
+import { LinkButton } from '@/components/common/Button'
 
 const PARTNERS = [
   'All India Institute of Ayurveda (AIIA)',
@@ -48,9 +48,9 @@ export function CollaborationPage() {
               We work with research councils, universities and hospitals to build India’s most
               trusted, transparent evidence base for traditional medicine.
             </p>
-            <Button variant="saffron" size="lg" className="mt-6">
+            <LinkButton to="/collaborate/request" variant="saffron" size="lg" className="mt-6">
               Request a partnership <ArrowRight className="h-4 w-4" aria-hidden />
-            </Button>
+            </LinkButton>
           </div>
         </Container>
       </div>
@@ -95,9 +95,9 @@ export function CollaborationPage() {
             Reach out to our partnerships team to discuss data-sharing, indexing and joint research
             initiatives.
           </p>
-          <Button size="lg" className="mt-6">
+          <LinkButton to="/collaborate/request" size="lg" className="mt-6">
             Contact partnerships team
-          </Button>
+          </LinkButton>
         </section>
       </Container>
     </div>

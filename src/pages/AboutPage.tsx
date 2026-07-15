@@ -17,7 +17,7 @@ export function AboutPage() {
               Making AYUSH research transparent, discoverable and trustworthy
             </h1>
             <p className="mt-4 text-lg text-slate-600">
-              The AYUSH Evidence Portal is a Government of India initiative to help anyone — from
+              The AYUSH Evidence Portal is an initiative to help anyone — from
               researchers to the public — quickly find credible, evidence-graded research across the
               five AYUSH systems of medicine.
             </p>

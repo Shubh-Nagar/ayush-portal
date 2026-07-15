@@ -11,7 +11,7 @@ export const TRIALS: ClinicalTrial[] = [
     intervention: 'Standardised Withania somnifera 600 mg/day',
     phase: 'Phase III',
     status: 'Recruiting',
-    sponsor: 'Ministry of AYUSH / AIIA',
+    sponsor: 'All India Institute of Ayurveda (AIIA)',
     location: 'New Delhi, Pune, Jaipur',
     participants: 480,
     startDate: '2024-04-15',

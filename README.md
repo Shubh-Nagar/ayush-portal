@@ -160,4 +160,4 @@ This portal indexes and grades published research for **discovery and educationa
 
 ---
 
-*Built as a production-ready starter for the Ministry of AYUSH, Government of India research-discovery initiative.*
+*Built as a production-ready starter for an AYUSH research-discovery initiative.*

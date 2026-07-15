@@ -88,12 +88,12 @@ export function ContactPage() {
                 <li className="flex gap-3">
                   <MapPin className="h-5 w-5 shrink-0 text-saffron-600" aria-hidden />
                   <span className="text-slate-600">
-                    Ministry of AYUSH, Ayush Bhawan, B-Block, GPO Complex, INA, New Delhi 110023
+                    New Delhi, India
                   </span>
                 </li>
                 <li className="flex gap-3">
                   <Mail className="h-5 w-5 shrink-0 text-saffron-600" aria-hidden />
-                  <span className="text-slate-600">evidence@ayush.gov.in</span>
+                  <span className="text-slate-600">ayushportal@gmail.com</span>
                 </li>
                 <li className="flex gap-3">
                   <Phone className="h-5 w-5 shrink-0 text-saffron-600" aria-hidden />

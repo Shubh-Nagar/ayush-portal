@@ -32,16 +32,16 @@ export function Footer() {
           <div className="lg:col-span-2">
             <Logo inverted />
             <p className="mt-4 max-w-sm text-sm text-white/70">
-              A Government of India research-discovery platform helping researchers, clinicians,
+              A research-discovery platform helping researchers, clinicians,
               students and the public find credible, evidence-graded research across the AYUSH
               systems of medicine.
             </p>
             <div className="mt-5 space-y-2 text-sm text-white/70">
               <p className="flex items-center gap-2">
-                <MapPin className="h-4 w-4 text-saffron" aria-hidden /> Ministry of AYUSH, New Delhi
+                <MapPin className="h-4 w-4 text-saffron" aria-hidden /> New Delhi, India
               </p>
               <p className="flex items-center gap-2">
-                <Mail className="h-4 w-4 text-saffron" aria-hidden /> evidence@ayush.gov.in
+                <Mail className="h-4 w-4 text-saffron" aria-hidden /> ayushportal@gmail.com
               </p>
               <p className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-saffron" aria-hidden /> 1800-XXX-AYUSH (toll-free)
@@ -81,7 +81,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col items-start justify-between gap-4 border-t border-white/10 pt-6 text-xs text-white/60 sm:flex-row sm:items-center">
-          <p>© {new Date().getFullYear()} Ministry of AYUSH, Government of India. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} AYUSH Evidence Portal. All rights reserved.</p>
           <div className="flex flex-wrap gap-x-5 gap-y-2">
             <Link to="/about" className="hover:text-white">Terms of use</Link>
             <Link to="/about" className="hover:text-white">Privacy policy</Link>
