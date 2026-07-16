@@ -15,6 +15,11 @@ const NAV_LINKS = [
   { to: '/collaborate', label: 'Collaborate' },
 ]
 
+// Show Homoeopathy first in the Systems dropdown, keep the rest in source order.
+const DROPDOWN_SYSTEMS = [...SYSTEMS].sort((a, b) =>
+  a.id === 'homoeopathy' ? -1 : b.id === 'homoeopathy' ? 1 : 0
+)
+
 export function Navbar() {
   const [systemsOpen, setSystemsOpen] = useState(false)
   const { isAuthenticated, user } = useAuthStore()
@@ -50,7 +55,7 @@ export function Navbar() {
             {systemsOpen && (
               <div className="absolute left-1/2 top-full z-30 w-72 -translate-x-1/2 pt-2">
                 <div className="overflow-hidden rounded-xl border border-navy-100 bg-white p-1.5 shadow-card-hover">
-                  {SYSTEMS.map((s) => (
+                  {DROPDOWN_SYSTEMS.map((s) => (
                     <Link
                       key={s.id}
                       to={`/system/${s.slug}`}
